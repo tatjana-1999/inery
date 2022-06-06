@@ -1,0 +1,91 @@
+/* Icons Section */
+
+.title {
+    margin: 50px 0;
+    font-weight: bold;
+}
+
+.icons-section {
+    border-bottom: 1px solid var(--clr-medium);
+}
+
+.icons-items i {
+    font-size: 25px !important;
+    color: var(--clr-medium) !important;
+}
+
+.icons-items p:first-child,
+.similar-job-items p:first-child {
+    color: var(--clr-medium);
+}
+
+
+/* Job Section */
+
+.job-section {
+    padding: 20px 0;
+}
+
+.job-section h3,
+.job-section h4 {
+    font-weight: bold;
+    padding: 10px 0 20px 0;
+}
+
+.job-section span {
+    font-weight: 400;
+}
+
+.job-section h4,
+.job-section span,
+.similar-job-items h4 {
+    font-size: 18px;
+}
+
+.job-section p {
+    text-align: justify;
+}
+
+.job-section li {
+    padding: 10px 0;
+    margin-left: 20px;
+}
+
+.job-section a {
+    margin: 50px 0;
+}
+
+
+/* Similar Jobs Section */
+
+.similar-job-items {
+    box-shadow: 0px 5px 10px rgba(124, 124, 124, 0.25);
+    height: 100%;
+    margin: 20px 0;
+    cursor: pointer;
+}
+
+p[target=_blank] {
+    color: var(--clr-medium);
+}
+
+.similar-job-items img {
+    width: 100px;
+}
+
+.similar-job-items i {
+    font-size: 20px;
+}
+
+.similar-job-items>div {
+    padding: 10px 30px;
+}
+
+.similar-job-items:nth-child(odd) {
+    background: var(--clr-blue);
+}
+
+.similar-jobs .all-jobs {
+    text-transform: capitalize !important;
+    padding: 20px 0;
+}

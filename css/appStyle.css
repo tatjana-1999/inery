@@ -1,0 +1,65 @@
+/* Form */
+
+.form-section input {
+    width: 50%;
+    padding: 12px;
+    border: 1px solid var(--clr-medium);
+    resize: vertical;
+}
+
+.form-section label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+    font-size: 14px;
+}
+
+.form-section .col-25 {
+    float: left;
+    width: 20%;
+}
+
+.form-section .col-75 {
+    float: left;
+    width: 80%;
+}
+
+.form-section .col-75 textarea {
+    width: 50%;
+    border: 1px solid var(--clr-medium);
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+/* Yes or No */
+
+.radio-item input {
+    margin-right: 10px;
+}
+
+
+/* Resume */
+
+#drop-zone {
+    border: 1px solid var(--clr-medium);
+    padding: 40px;
+    text-align: center;
+    width: 50%;
+}
+
+
+/* Send Application */
+
+.send-app {
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase;
+}
+
+.send-app .btn {
+    padding: 8px 200px !important;
+}

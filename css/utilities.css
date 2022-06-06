@@ -1,0 +1,79 @@
+/* Buttons */
+
+.btn,
+.btn-two {
+    display: inline-block;
+    padding: 8px 50px;
+    border: none;
+    font-weight: 500;
+    color: var(--clr-dark);
+}
+
+.btn {
+    cursor: pointer;
+}
+
+.btn-light-blue {
+    background: var(--clr-light-blue);
+}
+
+.btn-violet {
+    background: var(--clr-violet);
+}
+
+.btn-green {
+    background: var(--clr-green);
+}
+
+.btn-dark {
+    color: var(--clr-light);
+    background: var(--clr-dark);
+}
+
+.btn-light {
+    background: var(--clr-medium);
+    color: var(--clr-dark);
+}
+
+.btn-primary,
+.btn-secondary {
+    display: inline-block;
+    padding: 8px 80px;
+    border-radius: 30px;
+    cursor: pointer;
+    font-weight: 500;
+    box-shadow: 0 0 10px var(--clr-light-blue);
+}
+
+.btn-primary {
+    background: var(--clr-light-blue);
+    color: var(--clr-dark-blue);
+}
+
+.btn-secondary {
+    background: transparent;
+    color: var(--clr-light-blue);
+    border: 1px solid var(--clr-dark-blue);
+}
+
+.btn:hover,
+.btn-primary:hover,
+.btn-secondary:hover,
+.all-jobs a:hover {
+    opacity: 0.8;
+}
+
+
+/* Flex */
+
+.flex-items {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    text-align: center;
+    height: 100%;
+}
+
+.flex-items>div {
+    padding: 20px;
+}
